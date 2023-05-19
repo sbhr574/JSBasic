@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: auto;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .iconImg {
+    position: relative;
+    font-size: 1.1em;
+    right: 12px;
+    width: 130px;
+    height: 50px;
+}
+
+.naigation a {
+    position: relative;
+    font-size: 1.1em;
+    right: 12px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.naigation .btn {
+    width: 130px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.naigation .btn:hover {
+    background: #fff;
+    color: #162938;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: url('https://ichef.bbci.co.uk/images/ic/960xn/p070qkp0.jpg') no-repeat;
+    padding: 80px;
+    /* bottom: -10px; */
+    background-size: cover;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: inherit;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+}
