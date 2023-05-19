@@ -35,7 +35,7 @@ function x2(){
 let func1 = x2();
 console.log(func1);
 
-func1();
+func1(); // js is synchronas but still it remembers the closure(functios along with its lexical scope) which is returing
 
 // EX: 4 parent of parent
 function q1(){
@@ -51,6 +51,4 @@ function q1(){
 }
 q1();
 
-let fn = q1();
 
-console.log(fn);

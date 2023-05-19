@@ -5,7 +5,7 @@ function ConsFunction(name, age)
     this.name = name;
     this.age = age;
 
-    this.fun = function fun()
+    this.fun = function fun()//this keyword is mandatory
     {
         console.log('This is an function');
     }

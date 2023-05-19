@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--this is meta data to scalling the width and hight based on platform -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        *{
+            box-sizing: border-box;
+        }
+        label{
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+    </style> -->
+    <title>Hello All!</title>
+    <link rel="icon" type="images/x-icon" href="https://icon-library.com/images/html-icon/html-icon-3.jpg" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <!-- <h2 class="logo">Run</h2> -->
+            <img src="https://cdn.dribbble.com/users/2984251/screenshots/7184473/media/f429d23dbf7370c4a1c3c699c5113001.png?compress=1&resize=800x600" class="iconImg" alt="Logo">
+        </div>
+        <nav class="naigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button class="btn">Login</button>
+        </nav>
+        <!-- <img src="https://th.bing.com/th/id/OIP.Vbm5tuxmnnRNA68bJlkmfwHaHa?pid=ImgDet&rs=1" alt="Girl in a jacket"> -->
+    </header>
+    <div class="wrapper">
+        <form action="#">
+            <div class="block1" id="blk">
+                <div class="col-25">
+                    <span class="icon">
+                        <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                    </span>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="name" placeholder="First Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-21">
+                    <span class="icon">
+                        <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                    </span>
+                    <label for="lastName">Last Name</label>
+                </div>
+                <div class="col-25">
+                    <input type="text" id="name" placeholder="Last Name">
+                </div>
+            </div>
+            <div>
+                <button id="sign up">Sign up</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

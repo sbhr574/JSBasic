@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    font-size: 2em;
+    color:red;
+    user-select: none;
+    left: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: auto;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lb{
+    color: blue;
+    background-color: white;
+    padding: auto;
+    height: inherit;
+}
+
+body {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background: url('https://ichef.bbci.co.uk/images/ic/960xn/p070qkp0.jpg') no-repeat;
+    /* padding: 80px; */
+    /* bottom: -10px; */
+    background-size: cover;
+}

@@ -33,15 +33,14 @@ console.log(sum(5,4));
 
 
 //EX4: 
-// function cs()
-// {
-//     // this.num1 = num1;
-//     // this.num2 = num2;
-//     const s = (num1, num2) => num1 + num2;
-//     return s;
-// }
+function cs()
+{
+    // this.num1 = num1;
+    // this.num2 = num2;
+    this.s = (num1, num2) => num1 + num2;
+}
 
-// const sm = cs();
-// console.log(sm.s(10, 20))
+const sm = cs();
+console.log(sm.s(10, 20))
 
 
